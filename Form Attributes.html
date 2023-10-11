@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Form Attributes
+        </h1>
+
+        <form action="/action.js" target="_blank">
+            <label for="fname">First Name</label>
+            <br>
+            <input type="text" id="fname" name="fname" value="Tanvir">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" value="Raihan">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+
+        </form>
+        <h1>Example of Option</h1>
+        <form action>
+            <label for="books">Choose a book category</label>
+            <select name="books" id="books">
+
+                <option value="Nobel">Nobe</option>
+                <option value="Story">Story</option>
+                <option value="Poem">Poem</option>
+            </select>
+
+            <input type="submit" value="Submit">
+
+            <br>
+
+        </form>
+        <h1>This is an example of multiple selector</h1>
+        <form action target="_blank">
+            <label for="Books">Choose some books</label>
+            <select name="Books" id="Books" multiple>
+
+                <option value="Nobel">Nobe</option>
+                <option value="Story">Story</option>
+                <option value="Poem">Poem</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <h1>This an example of text area</h1>
+
+        <form action>
+            <textarea name="Feedback" id="Feedback" cols="20" rows="10">Submit
+                your Feedback here.</textarea>
+            <br> <input type="submit" value="Send Feedback">
+        </form>
+        <br>
+        <h1>This is an example of button</h1>
+        <button type="button" onclick="alert('Thank you for click')">Click Here</button>
+        <h1>Example of fieldset</h1>
+
+        <form action>
+            <fieldset>
+                <legend>Login</legend>
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname" value="Tanvir"><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname" value="Raihan">
+                <br>
+                <input type="submit" value="Submit Here">
+            </fieldset>
+
+        </form>
+
+        <br>
+        <h1> This is an example of datalist Element</h1>
+
+        <form action="/action_page.php">
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+              <option value="Edge">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist>
+            <input type="submit">
+          </form>
+    </body>
+</html>
